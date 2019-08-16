@@ -3,7 +3,6 @@
   <!-- from Github repositories -->
   <project name="external_pystache" path="external/pystache" remote="github" revision="master" />
   <project name="IA-Hardware-Composer" path="vendor/intel/external/project-celadon/hwcomposer" groups="hwcomposer" remote="github" revision="master"/>
-  <project name="lighthal" path="vendor/intel/external/project-celadon/lights" remote="github" revision="master"/>
   <project name="MemTrack" path="vendor/intel/external/project-celadon/memtrack" groups="pdk" remote="github" revision="master"/>
   <!--project name="DPTF" path="vendor/intel/external/project-celadon/dptf" groups="pdk" remote="github" revision="master"/-->
   <!--project name="platform_external_efitools" path="external/efitools" remote="github" revision="master"/-->
@@ -14,7 +13,6 @@
   <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces" remote="github" revision="stable"/>
   <project name="celadon-applications" path="vendor/intel/external/apps" remote="intel" revision="stable"/>
   <project name="thermal_daemon" path="vendor/intel/external/project-celadon/thermal_daemon" remote="intel" revision="master"/>
-  <project name="powerhal" path="vendor/intel/external/project-celadon/powerhal" remote="github" revision="master"/>
   <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="master"/>
   <project name="external-libdrm" path="vendor/intel/external/project-celadon/libdrm" groups="pdk" remote="github" revision="stable"/>
   <project name="external-mesa" path="vendor/intel/external/project-celadon/mesa" remote="github" revision="master" />
@@ -24,12 +22,8 @@
   <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="master" />
   <project name="safestringlib" path="hardware/intel/external/safestringlib" remote="intel" revision="master"/>
   <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="stable" />
-  <project name="external-gnu-efi" path="hardware/intel/external/gnu-efi" groups="pdk" remote="github" revision="master" />
   <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="master" />
   <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="master" />
-  <project name="device-androidia-kernel" path="kernel/project-celadon" remote="github" revision="master" />
-  <project name="kernel-modules" path="kernel/modules" remote="github" revision="master" />
-  <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="master" />
   <project name="hardware_intel_audio" path="vendor/intel/external/project-celadon/audio_pfw/hal" remote="github" revision="master" />
   <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/project-celadon/audio_pfw/utilities" remote="github" revision="master" />
   <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/project-celadon/audio_pfw/plugins/alsa" remote="github" revision="master" />
@@ -44,8 +38,6 @@
     <copyfile src="Android_intel.bp" dest="hardware/intel/Android.bp" />
   </project>
 
-    <!-- From public kernel.org -->
-  <project name="vendor-linux-firmware" path="vendor/linux/firmware" remote="github" revision="master" />
   <!--art-extension -->
   <project name="vendor_intel_art-extension" path="vendor/intel/art-extension" remote="github" revision="stable"/>
   <!-- ikgt projects -->
@@ -71,7 +63,6 @@
   <project name="gmmlib" path="hardware/intel/external/media/gmmlib" remote="github" revision="stable" />
   <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="stable" />
   <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="stable" />
-  <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="stable" />
   <project name="ittapi" path="vendor/intel/tools/ittapi" remote="github" revision="stable" />
 
   <!-- trusty vendor projects -->
@@ -96,7 +87,6 @@
   <project name="bionic" path="bionic" remote="github" revision="master" />
   <project name="external-drm_hwcomposer" path="external/drm_hwcomposer" groups="drm_hwcomposer" remote="github" revision="master"/>
   <project name="external-drm_gralloc" path="external/drm_gralloc" groups="drm_gralloc" remote="github" revision="master"/-->
-  <project name="libwifihal-intel" path="hardware/intel/wlan/libwifihal/open"  remote="github" revision="master" />
   <project name="libbt-vendor-intel" path="hardware/intel/libbt-vendor-intel"  remote="github" revision="master"/>
 
 </manifest>
